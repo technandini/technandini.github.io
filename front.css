@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+     * {
+       box-sizing :border-box;
+     }
+    nav{
+      display:flex;
+      top:0;
+      left:0;
+      width:100%;
+      align-items: center;
+      position: fixed;
+      justify-content: space-around;
+      background-color: white
+      box-shadow : 5px 10px 30px rgba(24,139,119,0.2);
+      z-index : 1;
+
+    }
+    ul{
+      list-style: none;
+    }
+    a{
+      text-decoration: none;
+    }
+    .button{
+      display: flex;
+      list-style: none;
+      
+
+
+    }
+    .button li a {
+      display: flex;
+      margin:3px;
+      color: gainsboro;
+      font-weight: 350;
+      letter-spacing: 1px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 22px;
+      padding: 0px 22px;
+      text-transform: uppercase;
+      }
+    .hey{
+      font-weight: 200px;
+      text-decoration: underline;
+      font-size: 20px;
+      color:rgba(127, 251, 255, 0.877)
+    }
+    .hee img {
+      height: 450px;
+      width: 520px;
+      padding-left: 6px;
+      margin-top: 128px;
+    
+    }
+    .hee{
+      display: flex;
+      justify-content: space-around;
+      align-content: center;
+      position: absolute;
+      
+    }
+    .lol  {
+      justify-content: space-around;
+      align-content: center;
+      margin-top: 155px;
+      padding-left: 90px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight: 350;
+      }
+    .lol h2{
+      color: grey;
+    }
+    .butt{
+      width:190px;
+      height:44px;
+      justify-content:center;
+      align-content: center;
+      color:white;
+      background-color: #1db096;
+      border-radius:20px;
+      box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+      text-transform: lowercase;
+      display: flex;
+
+    }
+    .butt:hover{
+      background-color: #23cdaf;
+      transition: all ease 0.2s;
+    }
+
+    .button  :hover{
+      background-color: #23cdaf;
+      transition: all ease 0.2s;
+      color:white;
+      box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+
+    }
+
+
+     
+
+      
+    
+
+
+
+
+
+
+
+
+    </head>
+  <body>
+ 
+  </body>
+</html>
